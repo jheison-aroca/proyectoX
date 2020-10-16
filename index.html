@@ -7,42 +7,69 @@
 	<title>RJJ</title>
 	<link rel="icon" type="image/vnd.microsoft.icon" href="images/logo-ico.png">
 	<link rel="stylesheet" href="css/styles.css">
+	<script type="application/javascript" src="js/cerebro.js"></script>
 </head>
 
 <body>
 	<div class="container">
 		<header>
-			<div class="wave1" style=" z-index: inherit; height: 80px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-					style="height: 100%; width: 100%;">
-					<path  class="footerImage"  d="M0.00,140 C149.99,150.00 271.49,10.98 500.00,80 L500.00,0.00 L0.00,0.00 Z"
-					></path>
+			<div class="wave1" style=" z-index: inherit; height: 80px; overflow: hidden;"><svg viewBox="0 0 500 150"
+					preserveAspectRatio="none" style="height: 100%; width: 100%;">
+					<path class="footerImage"
+						d="M0.00,140 C149.99,150.00 271.49,10.98 500.00,80 L500.00,0.00 L0.00,0.00 Z"></path>
 				</svg>
 			</div>
 			<nav>
-				<a href="#">inicio</a>
-				<a href="#">acerca de </a>
-				<a href="#">portafolio</a>
-				<a href="#">servicios</a>
-				<a href="#">contacto</a>
+
+				<ul class="menu sinPunto">
+					<div>
+						<li><a class="selec" href="#">inicio</a></li>
+						<li><a class="selec" href="#">servicios</a></li>
+						<li class="dropdown"><a class="selec" class="dropbtn" href="#">contacto</a>
+
+							<ul class="dropdown-content">
+
+								<div>
+									<li><a href="https://www.facebook.com/Exquisitos-114355803593840/?__tn__=%3C/" target="blank"><img
+												src="images/facebook.png" class="blue" width="50" /></a></li>
+								</div>
+								<div>
+									<li><a href="https://wa.link/g5mbj4" target="blank"><img src="images/what 1.png" class="green" width="50" /></a>
+									</li>
+								</div>
+								<div>
+									<li><a href="https://www.instagram.com/jheison007?r=nametag"target="blank"><img
+												src="images/instagram.png" class="red" width="50" /></a></li>
+								</div>
+							</ul>
+
+						</li>
+					</div>
+				</ul>
 			</nav>
+			<button onclick="cliente()">cliente</button>
+			<div class="punto">
+				 <img src="images/cazuela.jpg" class="icono" width="180"><img src="images/quesadilla2.jpg" class="icono" width="180">
+					<img src="images/potato.jpg" class="icono" width="180">
+			
+			</div>
 			<section class="textos-header">
 				<h1>RJJ</h1>
 				<h2>¡ven! y prueba la mejor comida con queso</h2>
-				
 			</section>
-			<div class="hover-galeria">
+			<div class="hover-galeria"> </div>
 			<imgs src="images/whatsapp.png">
 		</header>
 
-				<div class="wave2" style="height: 120px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-					style="height: 100%; width: 100%;">
-					<path class="footerImage" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-				></path>
-				</svg></div>
-		
+		<div class="wave2" style="height: 120px; overflow: hidden;"><svg viewBox="0 0 500 150"
+				preserveAspectRatio="none" style="height: 100%; width: 100%;">
+				<path class="footerImage"
+					d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path>
+			</svg></div>
 
-	</div>
 
+	</div>}
+	
 </body>
 
 </html>

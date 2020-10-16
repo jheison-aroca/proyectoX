@@ -1,59 +1,108 @@
-
 body {
-    margin: 0;
-    padding: 0;
-    background:       
-       linear-gradient(
-         rgba(0, 0, 0, 0.7), 
-         rgba(0, 0, 0, .7)
-       ),  
-       url(../images/queso.jpg);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/queso.jpg);
 }
-  
+
 .wave1 {
- position: absolute;
- top: 0;
- width: 100%;   
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 .wave2 {
-    position: absolute;
-    bottom: 100;
-    width: 100%;   
-   }
+  position: absolute;
+  bottom: 100;
+  width: 100%;
+}
+nav > a:hover {
+  text-decoration: underline;
+}
 .footerImage {
-    stroke: none;
-    fill: white;
-    fill-opacity: .3; 
-   }
+  stroke: none;
+  fill: white;
+  fill-opacity: 0.3;
+}
 
 .textos-header h1 {
-    font-size: 100px;
-    color: white;
-    text-align: center;
-    font-family: unset;
-    text-shadow: 0 0 0.2em #8F7
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  font-family: unset;
+  text-shadow: 0 0 0.2em #8f7;
+  padding: 200px;
 }
 .textos-header h2 {
-    font-size: 100px;
-    color: white;
-    text-align: center;
-    font-family: unset;
-    text-shadow: 0 0 0.2em #8F7
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  font-family: unset;
+  text-shadow: 0 0 0.2em #8f7;
 }
 nav {
-    text-align: right;
-    padding: 90px 80px 0 0 ;
-    z-index:1000;
+  text-align: right;
+  padding: 90px 80px 0 0;
+  z-index: 1000;
 }
-nav > a{
-    color:white;
-    font-weight: 500;
-    text-decoration: white;
-    margin-right: 15px;
-    z-index:1001;
-
+nav > ul li a {
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 60px;
+  text-decoration: white;
+  margin-right: 12px;
+  z-index: 1001;
+  text-shadow: 0 0 0.2em #8f7;
+  padding: 20px;
 }
 
+.sinPunto {
+  list-style-type: none;
+}
+.menu li {
+  display: inline;
+  padding: 15px;
+}
 
+.selec:hover {
+  border-radius: 80px;
+  background-color: rgba(126, 126, 21, 0.267);
+}
 
+.dropdown-content {
+  display: none;
+  min-width: 120px;
+  z-index: 10;
+  margin-top: 20px;
+  min-width: 160px;
+}
 
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  right: 11%;
+}
+
+.blue:hover {
+  border-radius: 80px;
+  background-color: rgba(7, 23, 247, 0.3);
+}
+.green:hover {
+  border-radius: 80px;
+  background-color: rgba(15, 224, 33, 0.3);
+}
+.red:hover {
+  border-radius: 80px;
+  background-color: rgba(175, 3, 3, 0.932);
+}
+.icono {
+  border-radius: 100px;
+  padding: 23px;
+  display: inline;
+}
+
+.punto {
+  list-style-type: none;
+  margin-top: 3cm;
+}
