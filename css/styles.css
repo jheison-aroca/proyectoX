@@ -106,3 +106,11 @@ nav > ul li a {
   list-style-type: none;
   margin-top: 3cm;
 }
+#inicio {
+  font-size: 11px;
+}
+/* estilos para el formulari */
+
+.titulo {
+  font-size: 50px;
+}
